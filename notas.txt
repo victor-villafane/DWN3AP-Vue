@@ -2,3 +2,14 @@
 2. git remote add origin https://github.com/victor-villafane/DWN3AP-Vue.git
     2.* Si ya tiene una rama: git remote remove origin
 3. git branch -M main
+4. git add .
+5. git commit -m "mensaje"
+6. git push -u origin main 
+*************************************************
+Una vez ya esten trabajando en el repo
+git add ruta/tuarchivo  -> git status 
+git add .
+git commit -m ""
+git push
+************************************************
+https://rogerdudler.github.io/git-guide/index.es.html
