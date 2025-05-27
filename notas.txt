@@ -1,0 +1,4 @@
+1. git init
+2. git remote add origin https://github.com/victor-villafane/DWN3AP-Vue.git
+    2.* Si ya tiene una rama: git remote remove origin
+3. git branch -M main
