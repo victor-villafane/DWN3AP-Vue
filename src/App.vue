@@ -13,11 +13,16 @@ import HelloWorld from './components/HelloWorld.vue'
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/listado">listado</RouterLink>
       </nav>
     </div>
   </header>
 
-  <RouterView />
+  <RouterView v-slot="{ Component }">
+    <transition mode="out-in" enter-active-class="animate__animated animate__bounceIn">
+      <Component :is="Component" />
+    </transition>
+  </RouterView>
 </template>
 
 <style scoped>
