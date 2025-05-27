@@ -4,6 +4,6 @@
 
 <template>
     <div>
-        <h1>Listado</h1>
+        Listado
     </div>
 </template>
